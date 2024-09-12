@@ -85,28 +85,29 @@ Run the application by using the provided script. The API will be available at t
 
 ## Usage
 
-### Run the API
+### Run Instructions
 
-In the same terminal, run the following command to start the API server:
+1. **Start the API Server**: Open your terminal and run the following command to start the API server:
 
-```bash
-uvicorn main:app --reload
-Test the API
+   ```bash
+   uvicorn main:app --reload
+
+   ```bash
+   uvicorn main:app --reload
+
+2. ** Test the API
 Open your browser and go to the following URL to access the API documentation and test the endpoints:
 
-arduino
-Copy code
-http://127.0.0.1:8000/docs
-Install Streamlit
+   ```bash
+   http://127.0.0.1:8000/docs
+3. **Install Streamlit
 In Visual Studio Code terminal, run the following command to install Streamlit:
 
-bash
-Copy code
-pip install streamlit
-Run Streamlit
+   ```bash
+   pip install streamlit
+4. ** Run Streamlit
 From the folder navigation bar, open your command prompt (CMD) and run the following command to start Streamlit:
 
-bash
-Copy code
-streamlit run app.py
+   ```bash
+   streamlit run app.py
 You can now use the Streamlit interface to interact with the model and receive recommendations.
