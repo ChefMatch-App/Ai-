@@ -92,10 +92,7 @@ Run the application by using the provided script. The API will be available at t
    ```bash
    uvicorn main:app --reload
 
-   ```bash
-   uvicorn main:app --reload
-
-2. ** Test the API
+2. **Test the API
 Open your browser and go to the following URL to access the API documentation and test the endpoints:
 
    ```bash
@@ -105,7 +102,7 @@ In Visual Studio Code terminal, run the following command to install Streamlit:
 
    ```bash
    pip install streamlit
-4. ** Run Streamlit
+4. **Run Streamlit
 From the folder navigation bar, open your command prompt (CMD) and run the following command to start Streamlit:
 
    ```bash
