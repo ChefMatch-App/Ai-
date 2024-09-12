@@ -87,16 +87,3 @@ Run the application by using the provided script. The API will be available at t
 
 ### Start the API
 
-Run the server locally or deploy it to a cloud service. Once the server is running, you can make requests to the API endpoints.
-
-### Making Requests
-
-Use tools like Postman, curl, or any HTTP client to interact with the API. Pass the necessary parameters in the request URL or body as required by each endpoint.
-
-### Hybrid Recommendations
-
-For the most personalized experience, use the `/hybrid_recommendations` endpoint, which combines the power of both content-based filtering (ingredient similarity) and collaborative filtering (user preference).
-
-### Updating the Model
-
-As more user data is gathered, re-train the model using the `/train_model` endpoint to keep the recommendations accurate and up-to-date.
