@@ -85,18 +85,28 @@ Run the application by using the provided script. The API will be available at t
 
 ## Usage
 
-### Start the API
+### Run the API
 
-Run the server locally or deploy it to a cloud service. Once the server is running, you can make requests to the API endpoints.
+In the same terminal, run the following command to start the API server:
 
-### Making Requests
+```bash
+uvicorn main:app --reload
+Test the API
+Open your browser and go to the following URL to access the API documentation and test the endpoints:
 
-Use tools like Postman, curl, or any HTTP client to interact with the API. Pass the necessary parameters in the request URL or body as required by each endpoint.
+arduino
+Copy code
+http://127.0.0.1:8000/docs
+Install Streamlit
+In Visual Studio Code terminal, run the following command to install Streamlit:
 
-### Hybrid Recommendations
+bash
+Copy code
+pip install streamlit
+Run Streamlit
+From the folder navigation bar, open your command prompt (CMD) and run the following command to start Streamlit:
 
-For the most personalized experience, use the `/hybrid_recommendations` endpoint, which combines the power of both content-based filtering (ingredient similarity) and collaborative filtering (user preference).
-
-### Updating the Model
-
-As more user data is gathered, re-train the model using the `/train_model` endpoint to keep the recommendations accurate and up-to-date.
+bash
+Copy code
+streamlit run app.py
+You can now use the Streamlit interface to interact with the model and receive recommendations.
